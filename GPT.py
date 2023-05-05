@@ -1,11 +1,9 @@
 import openai
 openai.api_key = "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"
 prompt = "ChatGPT, can you please describe a new and innovative business idea that has the potential to be successful " \
-         "in today's market? Please provide a detailed description of the idea, including the problem it solves, " \
-         "the target audience, the unique selling proposition, and the revenue model. Additionally, please provide " \
-         "any insights on the market and consumer behavior that may be relevant to the success of this idea. Your " \
-         "answer should be structured as following: Idea, Problem, Target Audience, Unique Selling Proposition, " \
-         "Revenue Model, Insights on the Market and Consumer Behavior, Conclusion. "
+         "in today's market? Please provide a detailed description of the idea. Your " \
+         "answer should be structured as following: Idea, Problem, Target Audience." \
+         "Revenue Model. But make sure your answer is no longer than 1024 characters. After your answer "
 def get_idea():
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -26,3 +24,4 @@ def get_idea():
     return(response)
 
 
+#get_idea()

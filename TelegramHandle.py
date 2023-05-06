@@ -1,5 +1,6 @@
 import GPT
 import ImageSearch
+import ImageSearchBeautifulSoup
 import time
 from telegram import Bot
 from telegram.constants import ParseMode
@@ -11,9 +12,9 @@ async def send_telegram_message():
     response, prompt = GPT.get_idea()
     n = 0
     try:
-        await bot.send_photo(chat_id='@testAutoTelegram',  caption=response, photo=ImageSearch.get_image(prompt,n))
+        await bot.send_photo(chat_id='@ideasForYourStartups',  caption=response, photo=ImageSearchBeautifulSoup.get_image(prompt,n))
     except:
         n+=1
-        await bot.send_photo(chat_id='@testAutoTelegram', caption=response, photo=ImageSearch.get_image(prompt,n))
+        await bot.send_photo(chat_id='@ideasForYourStartups', caption=response, photo=ImageSearchBeautifulSoup.get_image(prompt,n))
 asyncio.run(send_telegram_message())
 

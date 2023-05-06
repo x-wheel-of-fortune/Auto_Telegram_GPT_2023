@@ -1,6 +1,9 @@
-Idea: A meal delivery service that provides healthy, pre-made meals using locally-sourced, organic ingredients. 
-Problem: Many people struggle with finding the time to cook healthy meals for themselves due to busy schedules and lack of knowledge about nutrition. 
-Target Audience: Busy professionals, health-conscious individuals, and families looking for an easy and affordable way to eat healthy. 
-Revenue Model: Subscription-based service with tiered pricing based on the number of meals ordered. 
+Idea: A subscription-based meal prep service that utilizes blockchain technology to ensure freshness and traceability of ingredients. 
 
-Prompt: Healthy Meal
+Problem: Consumers often struggle to trust whether the food they purchase is truly fresh and healthy, leading to food waste and health concerns. 
+
+Target Audience: Health-conscious consumers who prioritize transparency and sustainability in their food choices. 
+
+Revenue Model: Recurring subscription fees and additional revenue from sales of premium ingredients and add-ons.
+
+Prompt: Blockchain Food.

@@ -1,6 +1,6 @@
 # General information
 In this project I'm developing an automated system that will manage a Telegram channel using Python3 and OpenAI API.<br />
-I use such modules as:<br /><br />
+I used such modules as:<br /><br />
 -asyncho<br />
 -telegram<br />
 -openai<br />
